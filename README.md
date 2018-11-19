@@ -20,3 +20,4 @@ Find a dataset that is currently in a table that you think could be turned into 
  
 
 Extra Credit: Find another dataset, briefly describe the dataset and columns. Briefly describe the tables you would use and how you would normalize these data. (2pts.) 
+Extra credit from here: http://www.fao.org/nr/water/aquastat/data/query/results.html or http://volcano.si.edu/database/search_eruption_results.cfm
