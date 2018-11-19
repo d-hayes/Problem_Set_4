@@ -1,12 +1,9 @@
-# flights.May2017-Apr2018.csv Metadata
+# titainc.csv Metadata
 
-## Information about the flights.May2017-Apr2018.csv file.
+## Information about the titanic.csv file.
 
-This file contains US commercial flight information from the [Bureau of Transportation Statistics](https://www.transtats.bts.gov/DL_SelectFields.asp).
-The data are from May of 2017 to April of 2018.
+This contains information about the passengers and crew aboard the Titanic the day of its maiden voyage, inlcuding those who survival.
 
-
-Data were downloaded July 19, 2018.
 
 
 The columns in the dataset are in the table below.
