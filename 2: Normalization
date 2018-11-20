@@ -1,0 +1,6 @@
+Description:
+This dataset is about 891 of the passengers aboard the Titanic. This includes personal information regarding each passenger, such as familiy present and socio-economic status. 
+
+Tables:
+To use this data, I want to compare each passenger by spcio-economic status. Therefore, I will make a table for each Passenger Class (which is indicative of socio-economic status).
+This will allow quick comparison of passenger class. 
