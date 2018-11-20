@@ -2,36 +2,24 @@
 
 ## Information about the titanic.csv file.
 
-This contains information about the passengers and crew aboard the Titanic the day of its maiden voyage, inlcuding those who survival.
+This contains information for 891 passengers aboard the Titanic the day of its maiden voyage. There is no information of the crew aboard the ship. 
 
+This information was provided online, through a gibhub repository, under an MIT liscence. The link to the repository is here: https://github.com/awesomedata/awesome-public-datasets.git 
 
 
 The columns in the dataset are in the table below.
 
 Column header | Description
 --------------|------------
-FL_DATE | Date of the flight
-AIRLINE_ID | An identification number assigned by US DOT to identify a unique airline (carrier). A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation.
-ORIGIN | Origin Airport
-ORIGIN_CITY_NAME | Origin Airport, City Name **Note that this column has a comma in it**
-ORIGIN_STATE_ABR | Origin Airport, State Code
-DEST | Destination Airport
-DEST_CITY_NAME | Destination Airport, City Name **Note that this column has a comma in it**
-DEST_STATE_ABR | Destination Airport, State Code
-DEP_TIME | Actual Departure Time (local time: hhmm)
-DEP_DELAY_NEW | Difference in minutes between scheduled and actual departure time. Early departures set to 0.
-DEP_DEL15 | Departure Delay Indicator, 15 Minutes or More (1.00=Yes, 0.00=No)
-ARR_TIME | Actual Arrival Time (local time: hhmm)
-ARR_DELAY_NEW | Difference in minutes between scheduled and actual arrival time. Early arrivals set to 0.
-ARR_DEL15 | Arrival Delay Indicator, 15 Minutes or More (1.00=Yes, 0.00=No)
-CANCELLED | Cancelled Flight Indicator (1=Yes)
-CANCELLATION_CODE | Specifies The Reason For Cancellation
-DIVERTED | Diverted Flight Indicator (1=Yes)
-AIR_TIME | Flight Time, in Minutes
-FLIGHTS | Number of Flights
-DISTANCE | Distance between airports (miles)
-CARRIER_DELAY | Carrier Delay, in Minutes
-WEATHER_DELAY | Weather Delay, in Minutes
-NAS_DELAY | National Air System Delay, in Minutes
-SECURITY_DELAY | Security Delay, in Minutes
-LATE_AIRCRAFT_DELAY | Late Aircraft Delay, in Minutes
+PassengerId | The number of the passenger, specific to this dataset, from 1 to 891.
+Survived | Survival of the passenger(0 = No; 1 = Yes)
+Pclass | Passesgner Class (1 = 1st; 2 = 2nd; 3 = 3rd) **Note: Passenger class represents socio-economic status: 1st ~ Upper; 2nd ~ Middle; 3rd ~ Lower**
+Name | Name of the passenger
+Sex | Gender of the passenger
+Age | Age of the passenger **Note: Age is in years; fractional ages represetn either Age less than 1 or an estimated age (in in the form XX.5)**
+SibSp | The number of siblings and/or spouses aboard the Titanic **Note: Only these definition were used for Sibling and Spouse, respectively: Brother, Sister, Stepbrother, or Stepsister of Passenger Aboard Titanic, Husband or Wife of Passenger Aboard Titanic; all other familial relationships were excluced**
+Parch | The number of parents and/or children aboard the Titanic **Note: Only these definitions were used for Parents and Children, respectively: Mother or Father of Passenger Aboard Titanic, Son, Daughter, Stepson, or Stepdaughter of Passenger Aboard Titanic; all other familial relationships were excluced**
+Ticket | Ticket number of passenger
+Fare | Fare paid by passenger,in British Pounds
+Cabin | Cabin number of the passenger
+Embarked | Port of embarkment (C = Cherbourg; Q = Queenstown; S = Southhampton)
