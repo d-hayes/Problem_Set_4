@@ -2,7 +2,7 @@ Description:
 The dataset came from the "Volcanoes of the World" database. Under their search query, I searched all possible categories to aquire this dataset. 
 
 Tables:
-To use this data, 
+This data will be separated into two tables, one about the volcano itseslf, and one about each eruption.
 
 Table 1: Volcanoes
 Column names: 
