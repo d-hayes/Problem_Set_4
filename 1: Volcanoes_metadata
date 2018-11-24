@@ -1,0 +1,17 @@
+
+
+Volcano Number | 6 digit identifer for each volcano
+Volcano Name	| Name of volcano
+Eruption Number	| Unique 5 digit eruption identifier
+Latitude | Latitude of volcano
+Longitude | Longitude of volcano
+Eruption Category	|Type of eruption (Confirmed, Uncertain, Discredited)
+Area of Activity | Name of location
+VEI |	Volcanic Explosivity Index; scale to measure explosiveness of eruption (0 - open ended)	
+Start Year | Start year of Eruption
+Start Month | Start month of Eruption
+Start Day	| day of the Start Month of Eruption
+Evidence Method (dating) | Evidence of Eruption
+End Year | Year eruption ended
+End Month	| Moth Eruption ended
+End Day | Day of End Month of Eruption
