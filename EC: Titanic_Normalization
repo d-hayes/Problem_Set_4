@@ -1,8 +1,4 @@
-# titainc.csv Metadata
-
-## Information about the titanic.csv file.
-
-This contains information for 891 passengers aboard the Titanic the day of its maiden voyage. There is no information of the crew aboard the ship. 
+Description: This contains information for 891 passengers aboard the Titanic the day of its maiden voyage. There is no information of the crew aboard the ship. 
 
 This information was provided online, through a gibhub repository, under an MIT liscence. The link to the repository is here: https://github.com/awesomedata/awesome-public-datasets.git 
 
@@ -23,3 +19,55 @@ Ticket | Ticket number of passenger
 Fare | Fare paid by passenger,in British Pounds
 Cabin | Cabin number of the passenger
 Embarked | Port of embarkment (C = Cherbourg; Q = Queenstown; S = Southhampton)
+
+Tables:
+To use this data, I want to compare each passenger by spcio-economic status. Therefore, I will make a table for each Passenger Class (which is indicative of socio-economic status).
+This will allow quick comparison of passenger class. 
+
+Table 1: Passenger Class 1 (Pclass, INTEGER)
+Column names: 
+PassengerId	(INTEGER)
+Survived (BOOLEAN)
+Name (TINYTEXT)
+Sex (STRING)
+Age (INTEGER)
+SibSp	(INTEGER)
+Parch	(INTEGER)
+Ticket (STRING)
+Fare (FLOAT)
+Cabin	(STRING)
+Embarked (STRING)
+Primary Key: PassengerId (INTEGER)
+Foregin Key:
+
+Table 2: Passenger Class 2
+Column names: 
+PassengerId	(INTEGER)
+Survived (BOOLEAN)
+Name (TINYTEXT)
+Sex (STRING)
+Age (INTEGER)
+SibSp	(INTEGER)
+Parch	(INTEGER)
+Ticket (STRING)
+Fare (FLOAT)
+Cabin	(STRING)
+Embarked (STRING)
+Primary Key: PassengerId (INTEGER)
+Foregin Key:
+
+Table 2: Passenger Class 3
+Column names: 
+PassengerId	(INTEGER)
+Survived (BOOLEAN)
+Name (TINYTEXT)
+Sex (STRING)
+Age (INTEGER)
+SibSp	(INTEGER)
+Parch	(INTEGER)
+Ticket (STRING)
+Fare (FLOAT)
+Cabin	(STRING)
+Embarked (STRING)
+Primary Key: PassengerId (INTEGER)
+Foregin Key:
