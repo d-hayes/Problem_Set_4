@@ -5,10 +5,20 @@ Tables:
 To use this data, I want to compare each passenger by spcio-economic status. Therefore, I will make a table for each Passenger Class (which is indicative of socio-economic status).
 This will allow quick comparison of passenger class. 
 
-Table 1: Passenger Class 1
+Table 1: Passenger Class 1 (Pclass, INTEGER)
 Column names: 
-*must include data types for each column
-Primary Key:
+PassengerId	(INTEGER)
+Survived (BOOLEAN)
+Name (TINYTEXT)
+Sex (STRING)
+Age (INTEGER)
+SibSp	(INTEGER)
+Parch	(INTEGER)
+Ticket (STRING)
+Fare (FLOAT)
+Cabin	(STRING)
+Embarked (STRING)
+Primary Key: Pclass (INTEGER)
 Foregin Key:
 
 Table 2: Passenger Class 2
