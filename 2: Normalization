@@ -18,17 +18,37 @@ Ticket (STRING)
 Fare (FLOAT)
 Cabin	(STRING)
 Embarked (STRING)
-Primary Key: Pclass (INTEGER)
-Foregin Key:
+Primary Key: Pclass = 1 (INTEGER)
+Foregin Key: Pclass =2,3 (INTEGER)
 
 Table 2: Passenger Class 2
 Column names: 
-*must include data types for each column
-Primary Key:
-Foregin Key:
+PassengerId	(INTEGER)
+Survived (BOOLEAN)
+Name (TINYTEXT)
+Sex (STRING)
+Age (INTEGER)
+SibSp	(INTEGER)
+Parch	(INTEGER)
+Ticket (STRING)
+Fare (FLOAT)
+Cabin	(STRING)
+Embarked (STRING)
+Primary Key: Pclass = 2 (INTEGER)
+Foregin Key: Pclass =1,3 (INTEGER)
 
 Table 2: Passenger Class 3
 Column names: 
-*must include data types for each column
-Primary Key:
-Foregin Key:
+PassengerId	(INTEGER)
+Survived (BOOLEAN)
+Name (TINYTEXT)
+Sex (STRING)
+Age (INTEGER)
+SibSp	(INTEGER)
+Parch	(INTEGER)
+Ticket (STRING)
+Fare (FLOAT)
+Cabin	(STRING)
+Embarked (STRING)
+Primary Key: Pclass = 3 (INTEGER)
+Foregin Key: Pclass =1,2 (INTEGER)
