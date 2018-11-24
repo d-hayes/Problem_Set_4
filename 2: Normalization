@@ -18,8 +18,8 @@ Ticket (STRING)
 Fare (FLOAT)
 Cabin	(STRING)
 Embarked (STRING)
-Primary Key: Pclass = 1 (INTEGER)
-Foregin Key: Pclass =2,3 (INTEGER)
+Primary Key: PassengerId (INTEGER)
+Foregin Key:
 
 Table 2: Passenger Class 2
 Column names: 
@@ -34,8 +34,8 @@ Ticket (STRING)
 Fare (FLOAT)
 Cabin	(STRING)
 Embarked (STRING)
-Primary Key: Pclass = 2 (INTEGER)
-Foregin Key: Pclass =1,3 (INTEGER)
+Primary Key: PassengerId (INTEGER)
+Foregin Key:
 
 Table 2: Passenger Class 3
 Column names: 
@@ -50,5 +50,5 @@ Ticket (STRING)
 Fare (FLOAT)
 Cabin	(STRING)
 Embarked (STRING)
-Primary Key: Pclass = 3 (INTEGER)
-Foregin Key: Pclass =1,2 (INTEGER)
+Primary Key: PassengerId (INTEGER)
+Foregin Key:
