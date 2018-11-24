@@ -1,5 +1,11 @@
+#Volcano metadata
 
+This data came from the "Volcano of the World" database, funded by the Smithsonian Institute National Musuem of Nautral History Global Volcanism Program. Link here: https://volcano.si.edu/search_volcano.cfm
 
+This is the results of searching all cateorgories from "Volcanoes of the World." This is a list of all columns within the dataset.
+
+Column header | Description
+--------------|------------
 Volcano Number | 6 digit identifer for each volcano
 Volcano Name	| Name of volcano
 Eruption Number	| Unique 5 digit eruption identifier
