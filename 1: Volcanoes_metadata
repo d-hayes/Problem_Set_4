@@ -1,8 +1,10 @@
-#Volcano metadata
+#GVP_Eruption_Results.xls Metadata
 
 This data came from the "Volcano of the World" database, funded by the Smithsonian Institute National Musuem of Nautral History Global Volcanism Program. Link here: https://volcano.si.edu/search_volcano.cfm
 
 This is the results of searching all cateorgories from "Volcanoes of the World." This is a list of all columns within the dataset.
+
+This data was downloaded on November 19, 2018 at 10:04 AM.
 
 Column header | Description
 --------------|------------
