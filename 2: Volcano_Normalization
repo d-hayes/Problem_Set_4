@@ -8,8 +8,8 @@ Table 1: Volcanoes
 Column names: 
 Volcano Number (INTEGER)
 Volcano Name (STRING)
-Latitude (FLOAT)
-Longitude (FLOAT)
+Latitude (STRING)
+Longitude (STRING)
 
 Primary Key: Eruption Name (INTEGER)
 
