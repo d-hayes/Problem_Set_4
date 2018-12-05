@@ -8,14 +8,14 @@ Table 1: Volcanoes
 Column names: 
 Volcano Number (INTEGER)
 Volcano Name (STRING)
-Eruption Number (INTEGER)
 Latitude (FLOAT)
 Longitude (FLOAT)
 
-Primary Key: Eruption number (INTEGER)
+Primary Key: Eruption Name (INTEGER)
 
 Table 2: Eruptions
 Coulmn names: 
+Eruption Number (INTEGER)
 Eruption Category (STRING)
 Area of Activity (STRING)
 VEI (INTEGER)
@@ -27,4 +27,5 @@ End Year (INTEGER)
 End Month (INTEGER)
 End Day (INTEGER)
 
-Foregin Key: Eruption number (INTEGER)
+Foregin Key: Volcano Name (INTEGER)
+Primary Key: Eruption Number (INTEGER)
